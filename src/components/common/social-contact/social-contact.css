@@ -1,0 +1,33 @@
+.social-contact{
+
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social-icon-div{
+
+    margin-right: 15px;
+	cursor: pointer;
+}
+
+.social-icon:hover{
+box-shadow: 1px 1px 10px grey;
+}
+
+.social-icon{
+	border-radius: 5px;
+	background-color: inherit;
+	height: 30px;
+}
+
+.social-contact:last-child{
+	margin-right: -15px;
+}
+
+@media only screen and (max-width: 720px){
+
+	.social-icon{
+		height: 22px;
+	}
+}

@@ -1,0 +1,177 @@
+.about{
+	display: flex; 
+	flex-direction: column;
+	flex: 1;
+	background-color: rgba(0,0,0,0.9);
+}
+
+.about-title{
+	color:white;
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.about-top{
+	 display: flex;
+     flex:1;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.about-bottom{
+	margin: 50px 0px;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 100%;
+	justify-content: center;
+}
+
+.about-info{
+	max-width:50%;
+	text-align: center;
+	font-size:20px;
+}
+
+.about-image{
+	max-width:50%;
+	text-align: center;
+	/*font-size:200px;*/
+}
+
+.about-picture{
+	max-width:100%;
+	padding-left: 20px;
+	width: max-content;
+	height: 700px;
+	width: 500px;
+	border-radius: 5px;
+}
+
+.proverb-image{
+   position: relative;
+   text-align: center;
+   color: white;
+}
+
+.proverb-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:black;
+}
+
+.proverb-picture{
+	width: max-content;
+	padding: 8px 16px;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 6px;
+	opacity:0.5;
+}
+
+.about-content-1{
+	margin-top: 10px;
+	margin-left: -20px;
+	max-width: 100%;
+	border-radius: 10px;
+	background-color: rgb(157,194,9);
+}
+
+.about-content-2{
+	margin-top: 10px;
+	margin-left: 20px;
+	max-width: 100%;
+	border-radius: 10px;
+	background-color: rgb(230,254,255);
+}
+
+.about-content-1 p{
+	padding: 20px;
+}
+
+.about-content-2 p{
+	padding: 20px;
+}
+
+@keyframes shadow {
+  from {box-shadow: none;}
+  to {box-shadow: 2px 2px 20px white;}
+}
+
+
+.about-content-1:hover{
+  animation-name: shadow;
+  animation-duration: 0.2s;
+  box-shadow: 2px 2px 15px white;
+}
+
+.about-content-2:hover{
+	animation-name: shadow;
+  animation-duration: 0.2s;
+  box-shadow: 2px 2px 15px white;
+}
+
+.about-imp{
+	color: blue;
+	font-size: 22px;
+	font-weight: 900px;
+}
+
+@media only screen and (max-width: 1024px){
+	.about-picture{
+		max-width: 80%;
+		padding-left: 5px;
+	}
+}
+
+
+@media only screen and (max-width: 720px){
+
+  .about-title{
+	font-size: 30px;
+	font-weight: 700;
+    }
+
+
+	.about-top{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.about-info{
+	max-width:90%;
+	text-align: center;
+	font-size:10px;
+      }
+
+    .about-image{
+	max-width:90%;
+	align-items: center;
+	height: 90%;
+	/*font-size:200px;*/
+      }
+
+    .about-picture{
+    	padding-left: 0px;
+    	width: max-content;
+    	height:200px;
+    	width:300px;
+    }
+
+    .about-bottom{
+		max-width: 100%;
+		justify-content: center;
+	}
+
+	.proverb-picture{
+		width: max-content;
+		height: 200px;
+	}
+
+ 
+}
