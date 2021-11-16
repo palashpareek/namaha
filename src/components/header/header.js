@@ -13,11 +13,11 @@ const Header = () =>{
            <div className="header">
              
 
-                 <div className="logo">
-                       Namaha
+                 <div className="logo"> 
+                      <img src={require('../../assets/logo.jpg').default} />
                  </div>
   
-
+ 
                  <div className="menu">
 
 

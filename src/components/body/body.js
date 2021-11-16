@@ -1,5 +1,6 @@
 import React from 'react'
 import About from './about/about'
+import Home from './home/home'
 import Contact from './contact/contact'
 import Cred from './credentials/credentials'
 import Pipe from './pipeline/pipe'
@@ -17,6 +18,8 @@ const Body = () =>{
     <Switch>
 
       <div>
+
+      <Route exact path='/' component={Home}></Route>
       
       <Route exact path='/about' component={About}></Route>
 

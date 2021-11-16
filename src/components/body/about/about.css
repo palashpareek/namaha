@@ -1,12 +1,12 @@
-.about{
+ .about{
 	display: flex; 
 	flex-direction: column;
 	flex: 1;
-	background-color: rgba(0,0,0,0.9);
+	background-color: white;
 }
 
 .about-title{
-	color:white;
+	color:black;
 	font-size: 50px;
 	font-weight: 700;
 }
@@ -78,7 +78,8 @@
 	margin-left: -20px;
 	max-width: 100%;
 	border-radius: 10px;
-	background-color: rgb(157,194,9);
+	background-color: rgba(187,5,5,0.9);
+	color: white;
 }
 
 .about-content-2{
@@ -86,7 +87,8 @@
 	margin-left: 20px;
 	max-width: 100%;
 	border-radius: 10px;
-	background-color: rgb(230,254,255);
+	background-color: rgba(0,0,0,0.9);
+	color: white;
 }
 
 .about-content-1 p{
@@ -99,24 +101,25 @@
 
 @keyframes shadow {
   from {box-shadow: none;}
-  to {box-shadow: 2px 2px 20px white;}
+  to {box-shadow: 2px 2px 40px black;}
 }
 
 
 .about-content-1:hover{
   animation-name: shadow;
   animation-duration: 0.2s;
-  box-shadow: 2px 2px 15px white;
+  background-color: rgba(187,5,5,1);
+  box-shadow: 2px 2px 15px black;
 }
 
 .about-content-2:hover{
 	animation-name: shadow;
   animation-duration: 0.2s;
-  box-shadow: 2px 2px 15px white;
+  background-color: rgba(0,0,0,1);
+  box-shadow: 2px 2px 15px black;
 }
 
 .about-imp{
-	color: blue;
 	font-size: 22px;
 	font-weight: 900px;
 }
