@@ -8,8 +8,30 @@
 .web-option{
 
 	font-size: 15px;
+	padding: 3px;
 	margin-right: 15px;
+	border-radius: 5px;
 	font-weight: 700;
+}
+
+.active-web-option{
+	font-size: 15px;
+	padding: 3px;
+	margin-right: 15px;
+	border-radius: 5px;
+	font-weight: 700;
+	background-color: rgba(157,21,21,1);
+}
+
+.web-option:hover{
+	background-color: rgba(157,21,21,1);
+	color: white;
+	transition: background-color 2s;
+}
+
+.web-option a:hover{
+	color: white;
+	transition: color 0.2s;
 }
 
 .web-option a{
@@ -20,10 +42,18 @@
 	align-items: center;
 }
 
+.active-web-option a{
+
+	text-decoration: none;
+	color: white;
+	display: flex;
+	align-items: center;
+}
+
 .web-option:last-child{
 	margin-right: 10px;
 }
 
 .web-option:first-child a{
-	color: rgba(187,5,5,1);
+	/*color: rgba(187,5,5,1);*/
 }

@@ -5,6 +5,20 @@ import {Link} from 'react-router-dom'
 
 const Web = () =>{
 
+        const[isActive, setIsActive] = useState({
+          activeIndex: null
+        });
+
+        const toggleActive = (index) =>{
+             setIsActive({...isActive, activeIndex: index})
+        }
+
+        const toggleActivestyle = (index)=>{
+            if(isActive.activeIndex === index)
+              return "active-web-option"
+            else
+              return "web-option"
+        }
 
 	return (
            
@@ -12,26 +26,25 @@ const Web = () =>{
                 
  
 
-             <div className="web-option">
+             <div className={toggleActivestyle(1)} onClick={() =>{toggleActive(1)}}> 
 
-                 <Link to="/" class="selected">
-                 Home
-                 </Link>
+                 <Link to="/">
+                 Home  
+                 </Link> 
               </div>
  
 
 
-              <div className="web-option">
+              <div className={toggleActivestyle(2)}  onClick={() =>{toggleActive(2)}}>
 
                  <Link to="/about">
                  About Us
                  </Link>
-
               </div>
 
 
               
-              <div className="web-option">
+              <div className={toggleActivestyle(3)}  onClick={() =>{toggleActive(3)}}>
 
                  <Link to="/services">
                  Services
@@ -41,7 +54,7 @@ const Web = () =>{
 
 
 
-               <div className="web-option">
+               <div className={toggleActivestyle(4)}  onClick={() =>{toggleActive(4)}}>
 
                  <Link to="/pipeline">
                  Pipeline
@@ -51,7 +64,7 @@ const Web = () =>{
 
 
 
-              <div className="web-option">
+              <div className={toggleActivestyle(5)}  onClick={() =>{toggleActive(5)}}>
 
                  <Link to="/reels">
                  Show Reels
@@ -61,7 +74,7 @@ const Web = () =>{
 
 
 
-              <div className="web-option">
+              <div className={toggleActivestyle(6)}  onClick={() =>{toggleActive(6)}}>
 
                  <Link to="/credentials">
                  Credentials
@@ -70,7 +83,7 @@ const Web = () =>{
               </div>
 
 
-              <div className="web-option">
+              <div className={toggleActivestyle(7)}  onClick={() =>{toggleActive(7)}}>
 
                  <Link to="/contact">
                  Contact

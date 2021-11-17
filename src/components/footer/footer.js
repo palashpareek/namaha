@@ -21,7 +21,7 @@ const Footer = ()=>{
               <div className="container-right">
                     
                     <p>
-                    <a href={require('../../assets/Palash_Pareek_Resume.pdf').default}>Privacy Policy</a>  |  <a href={require('../../assets/Palash_Pareek_Resume.pdf').default}>Terms of Use</a>
+                    <a href={require('../../assets/Privacy_policy.docx').default}>Privacy Policy</a>  |  <a href={require('../../assets/Terms_of_use.docx').default}>Terms of Use</a>
                     </p>
 
                      <p>info@example.com | +91-1234567890</p>

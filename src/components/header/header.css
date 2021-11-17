@@ -36,9 +36,15 @@
 	height:50px;
 }
 
+@media only screen and (max-width:1024px){
+	.header{
+		padding: 12px 0px;
+	}
+}
+
 @media only screen and (max-width:720px){
 	.header{
-		padding: 12px;
+		padding: 10px;
 	}
 
 	.web-menu{

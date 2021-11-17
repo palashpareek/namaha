@@ -35,16 +35,24 @@
   	color:white;
   }
 
-
   .reel-video{
-  	display: flex;
+    display: none;
+    width:100%;
+  }
+
+  .bottom-picture{
+  	display:flex;
   	align-items: center;
   	justify-content: center;
   	width:100%;
-  	height:70vh;
+  	height:80vh;
   	background-color: rgba(0,0,0,0.9);
   	background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .toggle-reel{
+    display:flex;
   }
 
   .reel-input{

@@ -9,7 +9,7 @@ const Home1 = () =>{
 		<div className="home1">
 		   
 		     <div  className="home-top">
-		          <ReactPlayer width='95vw' height='90vh' controls url="https://youtu.be/7sDY4m8KNLc"/>
+		          <ReactPlayer width='94vw' height='90vh' controls url="https://youtu.be/7sDY4m8KNLc"/>
 		     </div>
 
 		      <div  className="home-bottom">

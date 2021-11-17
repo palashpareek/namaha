@@ -6,8 +6,8 @@ const About = () =>{
    return(  
       
        <div className="about">
-
-             <p className="about-title">Who we are?</p>
+            
+             <p className="about-title">Namaha</p>
 
           <div className="about-top">
                

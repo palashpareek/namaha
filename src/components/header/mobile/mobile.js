@@ -3,11 +3,11 @@ import './mobile.css'
 import {Link} from 'react-router-dom'
 
 
-const Mobile = ({isOpen, setIsOpen}) =>{
+const Mobile = ({isOpen, setIsOpen}) =>{ 
 
 	return (
            
-             <div className="mobile">
+             <div className="mobile" onClick={()=> setIsOpen(!isOpen)}>
 
                <div className="close-icon" onClick={()=> setIsOpen(!isOpen)}>
                   <i class="fi-rr-cross-circle"></i>
@@ -16,6 +16,17 @@ const Mobile = ({isOpen, setIsOpen}) =>{
 
 
              <div className="mobile-options">
+
+
+
+              <div className="mobile-option">
+
+                 <Link to="/">
+                 <i class="fi fi-rr-home  option-icon"></i>
+                 Home
+                 </Link>
+
+              </div>
                 
  
 
