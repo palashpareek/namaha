@@ -5,6 +5,7 @@ import Contact from './contact/contact'
 import Cred from './credentials/credentials'
 import Pipe from './pipeline/pipe'
 import Reels from './reels/reels'
+import Reels1 from './reels/reels1'
 import Services from './sevices/services'
 import {Route, Switch} from 'react-router-dom'
 import './body.css'
@@ -30,6 +31,8 @@ const Body = () =>{
       <Route exact path='/pipeline' component={Pipe}></Route>
 
       <Route exact path='/reels' component={Reels}></Route>
+
+      <Route exact path='/reels1' component={Reels1}></Route>
 
       <Route exact path='/services' component={Services}></Route>
 

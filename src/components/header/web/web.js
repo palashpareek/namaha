@@ -30,7 +30,7 @@ const Web = () =>{
 
                  <Link to="/">
                  Home  
-                 </Link> 
+                 </Link>
               </div>
  
 

@@ -17,6 +17,7 @@
   	justify-content: center;
   }
 
+
   .reel-image{
   	  display:flex;
   	  align-items: center;
@@ -36,8 +37,10 @@
   }
 
   .reel-video{
-    display: none;
+    display: flex;
     width:100%;
+    align-items: center;
+    justify-content: center;
   }
 
   .bottom-picture{
@@ -51,9 +54,6 @@
     background-size: cover;
   }
 
-  .toggle-reel{
-    display:flex;
-  }
 
   .reel-input{
   	width: 300px;
@@ -77,6 +77,10 @@
     font-size: 15px;
     border:none;
     border-radius: 5px;
+  }
+
+  .para{
+    color:white;
   }
 
 

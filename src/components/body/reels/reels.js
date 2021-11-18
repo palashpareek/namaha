@@ -1,13 +1,15 @@
 import React, {useState} from 'react'
 import ReactPlayer from 'react-player'
+import {useHistory} from 'react-router-dom';
 import './reels.css'
 
 const Reels = () =>{
 
   const code = 12345;
+  let history = useHistory();
 
   const[user, setUser] = useState({
-    passcode: "" 
+    passcode: ""
   })
 
   const {passcode} = user;
@@ -16,14 +18,18 @@ const Reels = () =>{
     setUser({...user, [e.target.name]: e.target.value})
   }
 
-	 const showMessage = () =>{
+ const showMessage = () =>{
     if(user.passcode==code)
-	   alert("Correct passcode!");
+    {
+      sessionStorage.setItem("passcode", user.passcode)
+      history.push("/reels1");
+    }
+      
      else
-     alert("Incorrect passcode!");
+     alert("Incorrect Passcode!!");  
 	}
 
-  
+   
    return(
       
       <div className="reels">
@@ -37,10 +43,6 @@ const Reels = () =>{
          </div>
 
          <div  className="reels-bottom">
-               
-               <div className="reel-video">
-               <ReactPlayer width='94vw' height='90vh' controls url="https://youtu.be/7sDY4m8KNLc"/>
-               </div>
 
 
                <div className="bottom-picture">
@@ -52,9 +54,9 @@ const Reels = () =>{
                  onChange = {e => OnInputChange(e)}
                  />
                 <br/>
-                <button className="reel-btn" onClick={()=>showMessage()}>Submit</button>
+                <button className="reel-btn" onClick={() => showMessage()}>Submit</button>
                 </form>
-
+           
 
                </div>
          </div>
