@@ -1,29 +1,28 @@
 {
   "files": {
-    "main.css": "/namaha/static/css/main.8e3f3545.chunk.css",
-    "main.js": "/namaha/static/js/main.4d80215c.chunk.js",
-    "main.js.map": "/namaha/static/js/main.4d80215c.chunk.js.map",
+    "main.css": "/namaha/static/css/main.1ea4c92f.chunk.css",
+    "main.js": "/namaha/static/js/main.b967238c.chunk.js",
+    "main.js.map": "/namaha/static/js/main.b967238c.chunk.js.map",
     "runtime-main.js": "/namaha/static/js/runtime-main.8b143e06.js",
     "runtime-main.js.map": "/namaha/static/js/runtime-main.8b143e06.js.map",
-    "static/js/2.78ec8f6b.chunk.js": "/namaha/static/js/2.78ec8f6b.chunk.js",
-    "static/js/2.78ec8f6b.chunk.js.map": "/namaha/static/js/2.78ec8f6b.chunk.js.map",
+    "static/js/2.de8cfc28.chunk.js": "/namaha/static/js/2.de8cfc28.chunk.js",
+    "static/js/2.de8cfc28.chunk.js.map": "/namaha/static/js/2.de8cfc28.chunk.js.map",
     "static/js/3.3d7c7e5c.chunk.js": "/namaha/static/js/3.3d7c7e5c.chunk.js",
     "static/js/3.3d7c7e5c.chunk.js.map": "/namaha/static/js/3.3d7c7e5c.chunk.js.map",
     "index.html": "/namaha/index.html",
-    "static/css/main.8e3f3545.chunk.css.map": "/namaha/static/css/main.8e3f3545.chunk.css.map",
-    "static/js/2.78ec8f6b.chunk.js.LICENSE.txt": "/namaha/static/js/2.78ec8f6b.chunk.js.LICENSE.txt",
+    "static/css/main.1ea4c92f.chunk.css.map": "/namaha/static/css/main.1ea4c92f.chunk.css.map",
+    "static/js/2.de8cfc28.chunk.js.LICENSE.txt": "/namaha/static/js/2.de8cfc28.chunk.js.LICENSE.txt",
     "static/media/Contactus.png": "/namaha/static/media/Contactus.6a397599.png",
-    "static/media/Privacy_policy.docx": "/namaha/static/media/Privacy_policy.7e22e8bc.docx",
-    "static/media/Terms_of_use.docx": "/namaha/static/media/Terms_of_use.36e586d5.docx",
     "static/media/logo.jpg": "/namaha/static/media/logo.01a45a30.jpg",
     "static/media/logo.6ce24c58.svg": "/namaha/static/media/logo.6ce24c58.svg",
-    "static/media/reels.css": "/namaha/static/media/reel-image-2.056639bd.jpg",
+    "static/media/services.css": "/namaha/static/media/reel-image-2.056639bd.jpg",
+    "static/media/show_reel.bcb76a93.mp4": "/namaha/static/media/show_reel.bcb76a93.mp4",
     "static/media/home.css": "/namaha/static/media/vfx-about.93277e3f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.8b143e06.js",
-    "static/js/2.78ec8f6b.chunk.js",
-    "static/css/main.8e3f3545.chunk.css",
-    "static/js/main.4d80215c.chunk.js"
+    "static/js/2.de8cfc28.chunk.js",
+    "static/css/main.1ea4c92f.chunk.css",
+    "static/js/main.b967238c.chunk.js"
   ]
 }
