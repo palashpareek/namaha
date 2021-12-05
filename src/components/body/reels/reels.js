@@ -1,9 +1,10 @@
 import React, {useState} from 'react'
 import ReactPlayer from 'react-player'
 import {useHistory} from 'react-router-dom';
+import Video from '../../../assets/show_reel.mp4'
 import './reels.css'
 
-const Reels = () =>{
+const Reels = () =>{ 
 
   const code = 12345;
   let history = useHistory();
@@ -45,7 +46,11 @@ const Reels = () =>{
          <div  className="reels-bottom">
 
 
-               <div className="bottom-picture">
+               <div className="bottom-picture"> 
+
+                <video autoPlay loop muted className="reels-bg-video">
+                <source src={Video} type="video/mp4"/>
+                 </video>
 
                 <form>
                 <input type="password" placeholder="Enter Passcode"

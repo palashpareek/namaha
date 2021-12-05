@@ -14,7 +14,7 @@ const Header = () =>{
              
 
                  <div className="logo"> 
-                      <img src={require('../../assets/logo.jpg').default} />
+                      <img src={require('../../assets/logo.jpg').default} /> 
                  </div>
   
  

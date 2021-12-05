@@ -5,13 +5,13 @@ import Footer from '../footer/footer'
 import {BrowserRouter as Router} from 'react-router-dom'
 import './home.css'
 
-const Home = () =>{
+const Home = () =>{ 
 
 	return (
 
     <Router>
 
-        <div className="home">
+        <div className="home"> 
 
 
           <div>
@@ -23,12 +23,10 @@ const Home = () =>{
              <Body />
           </div>
 
-
+         
            <div>
              <Footer />
           </div>
-         
-
 
         </div>
 

@@ -1,7 +1,7 @@
 .social-contact{
 
 	display:flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 }
 
@@ -10,7 +10,7 @@
     margin-right: 15px;
 	cursor: pointer;
 }
-
+ 
 .social-icon:hover{
 box-shadow: 1px 1px 10px grey;
 }
@@ -18,7 +18,7 @@ box-shadow: 1px 1px 10px grey;
 .social-icon{
 	border-radius: 5px;
 	background-color: inherit;
-	height: 30px;
+	height: 23px;
 }
 
 .social-contact:last-child{

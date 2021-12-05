@@ -27,17 +27,6 @@ const Mobile = ({isOpen, setIsOpen}) =>{
                  </Link>
 
               </div>
-                
- 
-
-              <div className="mobile-option">
-
-                 <Link to="/about">
-                 <i class="fi fi-rr-info  option-icon"></i>
-                 About Us
-                 </Link>
-
-              </div>
 
 
 

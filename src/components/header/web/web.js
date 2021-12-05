@@ -32,15 +32,6 @@ const Web = () =>{
                  Home  
                  </Link>
               </div>
- 
-
-
-              <div className={toggleActivestyle(2)}  onClick={() =>{toggleActive(2)}}>
-
-                 <Link to="/about">
-                 About Us
-                 </Link>
-              </div>
 
 
               
