@@ -28,7 +28,7 @@ const Web = () =>{
 
              <div className={toggleActivestyle(1)} onClick={() =>{toggleActive(1)}}> 
 
-                 <Link to="/">
+                 <Link to="/namaha">
                  Home  
                  </Link>
               </div>

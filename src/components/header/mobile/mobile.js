@@ -21,7 +21,7 @@ const Mobile = ({isOpen, setIsOpen}) =>{
 
               <div className="mobile-option">
 
-                 <Link to="/">
+                 <Link to="/namaha">
                  <i class="fi fi-rr-home  option-icon"></i>
                  Home
                  </Link>

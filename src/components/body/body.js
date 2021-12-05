@@ -19,8 +19,8 @@ const Body = () =>{
     <Switch>
 
       <div>
-
-      <Route exact path='/' component={Home}></Route>
+ 
+      <Route exact path='/namaha' component={Home}></Route>
 
       <Route exact path='/contact' component={Contact}></Route>
 
