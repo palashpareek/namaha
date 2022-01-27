@@ -24,8 +24,6 @@ const Body = () =>{
 
       <Route exact path='/contact' component={Contact}></Route>
 
-      <Route exact path='/credentials' component={Cred}></Route>
-
       <Route exact path='/pipeline' component={Pipe}></Route>
 
       <Route exact path='/reels' component={Reels}></Route>
@@ -46,3 +44,5 @@ const Body = () =>{
 }
 
 export default Body;
+
+/*<Route exact path='/credentials' component={Cred}></Route>*/

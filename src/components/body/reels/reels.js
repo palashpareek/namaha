@@ -19,7 +19,7 @@ const Reels = () =>{
     setUser({...user, [e.target.name]: e.target.value})
   }
 
- const showMessage = () =>{
+ const showMessage = () =>{  
     if(user.passcode==code)
     {
       sessionStorage.setItem("passcode", user.passcode)
@@ -41,20 +41,20 @@ const Reels = () =>{
                   <p>Showreel</p>
                </div>         
 
-         </div>
+         </div> 
 
          <div  className="reels-bottom">
 
 
                <div className="bottom-picture"> 
-
+ 
                 <video autoPlay loop muted className="reels-bg-video">
                 <source src={Video} type="video/mp4"/>
                  </video>
 
                 <form>
                 <input type="password" placeholder="Enter Passcode"
-                 required className="reel-input"
+                 required className="reel-input" autoComplete="off"
                  name="passcode" value={passcode}
                  onChange = {e => OnInputChange(e)}
                  />

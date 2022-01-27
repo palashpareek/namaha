@@ -29,12 +29,11 @@ const Mobile = ({isOpen, setIsOpen}) =>{
               </div>
 
 
-
               <div className="mobile-option">
 
-                 <Link to="/reels">
-                 <i class="fi fi-rr-film option-icon"></i>
-                 Show Reels
+                 <Link to="/services">
+                 <i class="fi fi-rr-settings-sliders  option-icon"></i>
+                 Services
                  </Link>
 
               </div>
@@ -43,9 +42,9 @@ const Mobile = ({isOpen, setIsOpen}) =>{
 
               <div className="mobile-option">
 
-                 <Link to="/services">
-                 <i class="fi fi-rr-settings-sliders  option-icon"></i>
-                 Services
+                 <Link to="/reels">
+                 <i class="fi fi-rr-film option-icon"></i>
+                 Show Reels
                  </Link>
 
               </div>
@@ -65,16 +64,6 @@ const Mobile = ({isOpen, setIsOpen}) =>{
 
               <div className="mobile-option">
 
-                 <Link to="/credentials">
-                 <i class="fi fi-rr-list-check option-icon"></i>
-                 Credentials
-                 </Link>
-
-              </div>
-
-
-              <div className="mobile-option">
-
                  <Link to="/contact">
                   <i class="fi-rr-user option-icon"></i>
                  Contact
@@ -90,3 +79,12 @@ const Mobile = ({isOpen, setIsOpen}) =>{
 }
 
 export default Mobile;
+
+/*<div className="mobile-option">
+
+                 <Link to="/credentials">
+                 <i class="fi fi-rr-list-check option-icon"></i>
+                 Credentials
+                 </Link>
+
+              </div>*/

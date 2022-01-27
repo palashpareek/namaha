@@ -16,9 +16,10 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
+	border-radius: 10px;
 	padding: 50px 100px;
 	width: 100%;
-	background-image: url('../../../assets/reel-image-2.jpg');
+	background-image: url('../../../assets/service_bg3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -35,18 +36,19 @@
 	display: flex;
 	flex-wrap: wrap;
 	max-width: 100%;
-	justify-content: space-between;
+	justify-content: space-evenly;
 }
 
 .service-content{
-	padding:4px;
+	padding:20px;
 	margin: 40px;
 	max-width: 40%;
 	display: flex;
 	border-radius: 20px;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 }
+
 
 
 @keyframes shadow {
@@ -55,7 +57,7 @@
 }
 
 .service-content:hover{
-  animation-name: shadow;
+  animation-name: shadow; 
   animation-duration: 1s;
   background-color: #ffffff;
   box-shadow: 2px 2px 30px black;
@@ -71,7 +73,7 @@
 }
 
 .service-text h1{
-	color: rgba(187,5,5,0.9);
+	color: #A00000;
 	font-weight: 800;
 }
 

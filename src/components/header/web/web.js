@@ -49,7 +49,7 @@ const Web = () =>{
 
                  <Link to="/pipeline">
                  Pipeline
-                 </Link>
+                 </Link> 
 
               </div>
 
@@ -63,15 +63,6 @@ const Web = () =>{
 
               </div>
 
-
-
-              <div className={toggleActivestyle(6)}  onClick={() =>{toggleActive(6)}}>
-
-                 <Link to="/credentials">
-                 Credentials
-                 </Link>
-
-              </div>
 
 
               <div className={toggleActivestyle(7)}  onClick={() =>{toggleActive(7)}}>
@@ -88,3 +79,11 @@ const Web = () =>{
 }
 
 export default Web;
+
+/* <div className={toggleActivestyle(6)}  onClick={() =>{toggleActive(6)}}>
+
+<Link to="/credentials">
+Credentials
+</Link>
+
+</div>*/

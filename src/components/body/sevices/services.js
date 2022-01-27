@@ -11,7 +11,7 @@ const Services = () =>{
          <div className="services-top">
 
                 <div className="services-image">
-                  <p style={{fontSize: 20, marginBottom: 30, paddingTop: 50}}>Services</p> 
+                  <p style={{fontSize: 30, marginBottom: 30, paddingTop: 50}}>Services</p> 
                   <p>ONE STOP SOLUTION</p>
                   <p>FOR ALL YOUR CREATIVE NEEDS!</p>
                </div>
@@ -19,17 +19,16 @@ const Services = () =>{
          </div>
 
 
-         <div className="services-bottom">
+         <div className="services-bottom"> 
 
              <div className="service-content">
 
                  <div className="service-png">
-                 <img src={require('../../../assets/vfx-about.jpg').default} className="service-picture" />
+                 <img src={require('../../../assets/service_icons/S3-MM.png').default} className="service-picture" />
                  </div>
 
                  <div className="service-text">
                  <h1>VFX Rotoscope</h1>
-                 <p style={{marginTop: -20}}>projects and enlarges individual frames of filmed live action.</p>
                  </div>
 
              </div>
@@ -37,25 +36,23 @@ const Services = () =>{
              <div className="service-content">
 
                  <div className="service-png">
-                 <img src={require('../../../assets/vfx-about.jpg').default} className="service-picture" />
+                 <img src={require('../../../assets/service_icons/S2-PP.png').default} className="service-picture" />
                  </div>
 
                  <div className="service-text">
                  <h1>VFX Prep/Paint</h1>
-                 <p style={{marginTop: -20}}>projects and enlarges individual frames of filmed live action.</p>
                  </div>
                  
              </div>
 
-             <div className="service-content">
+             <div className="service-content"> 
 
                  <div className="service-png">
-                 <img src={require('../../../assets/vfx-about.jpg').default} className="service-picture" />
+                 <img src={require('../../../assets/service_icons/S4-K.png').default} className="service-picture" />
                  </div>
-
+ 
                  <div className="service-text">
                  <h1>VFX Matchmove</h1>
-                 <p style={{marginTop: -20}}>projects and enlarges individual frames of filmed live action.</p>
                  </div>
                  
              </div>
@@ -63,12 +60,11 @@ const Services = () =>{
              <div className="service-content">
 
                  <div className="service-png">
-                 <img src={require('../../../assets/vfx-about.jpg').default} className="service-picture" />
+                 <img src={require('../../../assets/service_icons/S1-RS.png').default} className="service-picture" />
                  </div>
 
                  <div className="service-text">
-                 <h1>Keying</h1>
-                 <p style={{marginTop: -20}}>projects and enlarges individual frames of filmed live action.</p>
+                 <h1>VFX Keying</h1>
                  </div>
                  
              </div>
@@ -80,3 +76,5 @@ const Services = () =>{
 }
 
 export default Services;
+
+//<p style={{marginTop: -20}}>projects and enlarges individual frames of filmed live action.</p>

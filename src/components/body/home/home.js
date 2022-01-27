@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactPlayer from 'react-player'
 import Separator1 from '../../common/separator1/separator1'
-import Video from '../../../assets/show_reel.mp4'
+import Video from '../../../assets/Namaha_home1.mp4'
 import './home.css'
 
 const Home1 = () =>{
@@ -11,7 +11,14 @@ const Home1 = () =>{
 		<div className="home1">
 		   
 		     <div  className="home-top">
-		          <ReactPlayer width='100vw' height='100vh' controls url="https://youtu.be/7sDY4m8KNLc"/>
+			 <video autoPlay loop muted 
+		          style={{
+		          	width:'100%',
+		          	height:'100%'
+		          }}
+		          >
+		          <source src={Video} type="video/mp4"/>
+		          </video>
 		     </div>
 
 		      <div  className="home-bottom">
@@ -62,32 +69,32 @@ const Home1 = () =>{
 		          <p className="home-para" style={{marginBottom:70}}>We pledge that your script is in the right doors to connect your visionary ideas to the VFX destiny.</p>
 
 
-
-		           <div className="home-content-1">
+            <div className="home-boxes">
+		           <div className="home-content-1 hp1">
 		             <h2>"All the glitters are not gold"</h2>
                      <p>We are some of the best glitters in the industry. ie., our talented artists, to make your vision gold.</p>
                   </div>
 
-                  <div className="home-content-2">
+                  <div  className="home-content-2 hp2">
 		             <h2>"Opportunity plus instinct make a profit"</h2>
                      <p>We value every opportunity, create impacts binding our creative instincts, and derive the best profits for our clients.</p>
                   </div>
-
-                  <div className="home-content-1">
+ 
+                  <div  className="home-content-1 hp3">
 		             <h2>"First things first"</h2>
                      <p>"Fulfilling our client's priorities", "Honouring them for the trust", "Deliver the finest quality and stand out of the crowd"</p>
                   </div>
 
-                  <div className="home-content-2">
+                  <div className="home-content-2 hp4">
 		             <h2>"It's the tip of the iceberg"</h2>
                      <p>Setting powerful operational strategies works best for us to create quality projects even in the tight deadlines.</p>
                   </div>
 
-                  <div className="home-content-1" style={{marginBottom:50}}>
+                  <div className="home-content-1 hp5" style={{marginBottom:50}}>
 		             <h2>"Action speaks louder than words"</h2>
                      <p>"Connect with us and make your decision worth it."</p>
                   </div>
-
+			</div>
                    
 		         
 		     </div>
@@ -109,3 +116,7 @@ export default Home1;
 		          >
 		          <source src={Video} type="video/mp4"/>
 		          </video>*/
+
+				 /* <div  className="home-top">
+		          <ReactPlayer width='100vw' height='100vh' controls url="https://youtu.be/7sDY4m8KNLc"/>
+		     </div>*/

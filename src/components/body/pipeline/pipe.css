@@ -1,0 +1,137 @@
+.pipeline{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.pipeline-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+	margin: 3px 40px;
+    max-width: 95%;
+    border-radius: 20px;
+}
+
+.line-v{
+    border-left: 2px solid #A00000;
+    height: 50px;
+}
+
+/*arrow animation*/
+
+.center-con {
+    margin-left: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.round {
+    position: relative;
+    border: 3px solid black;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.arrow {
+    z-index: 1;
+    height: 1px;
+    margin:1px;
+    width: 12px;
+    background: #A00000;
+    transition: 0.4s ease;
+}
+
+.arrow:first-child {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 25%;
+    bottom: 35%;
+}
+
+.arrow:nth-child(2) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 45%;
+    bottom: 35%;
+}
+
+.arrow:nth-child(3) {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 25%;
+    bottom: 54%;
+}
+
+.arrow:nth-child(4) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 45%;
+    bottom: 54%;
+}
+
+.round:hover .arrow:nth-child(1) {
+    transform: rotate(-135deg);
+}
+
+.round:hover .arrow:nth-child(2) {
+    transform: rotate(135deg);
+}
+
+.round:hover span:nth-child(3) {
+    transform: rotate(225deg);
+}
+
+.round:hover span:nth-child(4) {
+    transform: rotate(-225deg);
+}
+
+/*arrow animaton*/
+
+@keyframes shadow {
+    from {box-shadow: none;}
+    to {box-shadow: 2px 2px 30px black;}
+  }
+  
+  .pipeline-content:hover{
+    animation-name: shadow; 
+    animation-duration: 1s;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 30px black;
+  }
+  
+
+.pipeline-text{
+	margin-left: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.pipeline-text h1{
+	color: #A00000;
+	font-weight: 800;
+}
+
+@media only screen and (max-width:720px){
+
+    .pipeline-text{
+        align-items: center;
+    }
+
+    .center-con {
+        z-index: -1;
+        margin-left: 50vw;
+    }
+}

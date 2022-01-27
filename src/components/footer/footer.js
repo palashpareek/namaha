@@ -29,7 +29,7 @@ const Footer = ()=>{
                  and Matchmove services.</p> 
                  </div> 
 
-                  <p style={{marginTop:-7}}>
+                  <p style={{marginTop:-4}}>
                     Our company works with reputed clients
                    globally for commercials and film projects episodic content for VFX
                    endeavours.
@@ -42,8 +42,8 @@ const Footer = ()=>{
                     <p className="footer-title">Contact At</p>
                     <p style={{marginTop:-25}}><Separator1 /></p>
 
-                     <p style={{marginTop:-5}}>info@example.com</p> 
-                     <p style={{marginTop:-10}}>+91-1234567890</p>
+                     <p style={{marginTop:-5}}>info@namahavfx.com</p> 
+                     <p style={{marginTop:-10}}>+91-7604959831</p>
 
                      <p className="footer-title" style={{marginTop:-5}}>Catch Up On</p>
                     <p style={{marginTop:-25}}><Separator1 /></p>
