@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactPlayer from 'react-player'
 import Separator1 from '../../common/separator1/separator1'
-import Video from '../../../assets/Namaha_home1.mp4'
+import Video from '../../../assets/Namaha_home2.mp4'
 import './home.css'
 
 const Home1 = () =>{
@@ -44,7 +44,7 @@ const Home1 = () =>{
 		           most realistic representation and zeal to the ideas.
 		           </p>
 
-		            <img src={require('../../../assets/vfx-about.jpg').default} className="home-picture"/>
+		            <img src={require('../../../assets/home_images/New6.jpg').default} className="home-picture"/>
 		         </div>
 
 
@@ -55,7 +55,7 @@ const Home1 = () =>{
 
 
 		         <div className="home-content">
-		            <img src={require('../../../assets/vfx-about.jpg').default} className="home-picture"/>
+		            <img src={require('../../../assets/home_images/snow.png').default} className="home-picture"/>
 
 		            <p>VFX Supervisors and show leads having 15+ years of experience
 		               drive the best appraches focusing on maximizing the production
@@ -69,7 +69,7 @@ const Home1 = () =>{
 		          <p className="home-para" style={{marginBottom:70}}>We pledge that your script is in the right doors to connect your visionary ideas to the VFX destiny.</p>
 
 
-            <div className="home-boxes">
+            <div className="home-boxes"> 
 		           <div className="home-content-1 hp1">
 		             <h2>"All the glitters are not gold"</h2>
                      <p>We are some of the best glitters in the industry. ie., our talented artists, to make your vision gold.</p>

@@ -1,9 +1,10 @@
 import React, {useState } from 'react'
 import contactVideo from '../../../assets/contactVideo.mp4'
 import emailjs from 'emailjs-com'
+import {Map, GoogleApiWrapper} from 'google-maps-react'
 import './contact.css'
 
-const Contact = () =>{
+const Contact = ({google}) =>{
 
    const[data, setData] = useState({
       name: "",
@@ -54,7 +55,7 @@ const Contact = () =>{
 
                   <div style={{fontWeight: 900, fontSize: 20, marginBottom: 20}}>
                    <p>Let's Talk</p>
-                  </div>
+                  </div> 
 
              <form className="contact-form" onSubmit={sendEmail}>
                   <div className="contact-left-form">
@@ -94,13 +95,37 @@ const Contact = () =>{
 
               </div>
 
-              <div className="contact-right">
+             <div className="contact-right">
+
               <video autoPlay loop muted>
                 <source src={contactVideo} type="video/mp4"/>
                  </video>
-              </div> 
+
+               <div className="location">
+                  <p>Locate Us</p>
+                  <a  style={{color:"#A00000"}}href="https://maps.app.goo.gl/3HfTrFNSAnTJiLdRA"  target="_blank"><i class="fi fi-rr-marker  option-icon"></i></a>
+               </div>
+
+         </div> 
       </div>
    	)
 }
 
-export default Contact;
+export default  GoogleApiWrapper({
+   apiKey: "AIzaSyCJx8XTNeZhgllBMLWIR7zNMMUvvF7fuuU"
+})(Contact)
+
+/*
+<div className="contact_map">
+                 <Map 
+                 google={google}
+                  style={{width:"20%", height:"50%"}}
+                  zoom={10}
+                  initialCenter={
+                     {
+                        lat: 24.588327,
+                        lng: 73.739027
+                     }
+                  }
+                 />
+            </div>*/

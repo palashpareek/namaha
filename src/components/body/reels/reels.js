@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import ReactPlayer from 'react-player'
 import {useHistory} from 'react-router-dom';
-import Video from '../../../assets/show_reel.mp4'
+import Video from '../../../assets/Dinosaur.mp4'
 import './reels.css'
 
 const Reels = () =>{ 
@@ -48,7 +48,9 @@ const Reels = () =>{
 
                <div className="bottom-picture"> 
  
-                <video autoPlay loop muted className="reels-bg-video">
+                <video autoPlay loop muted className="reels-bg-video"
+                
+                >
                 <source src={Video} type="video/mp4"/>
                  </video>
 

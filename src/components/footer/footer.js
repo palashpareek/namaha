@@ -31,7 +31,7 @@ const Footer = ()=>{
 
                   <p style={{marginTop:-4}}>
                     Our company works with reputed clients
-                   globally for commercials and film projects episodic content for VFX
+                   globally for commercials and film projects episodic content for VFX 
                    endeavours.
                   </p>
 

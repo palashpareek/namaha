@@ -16,17 +16,17 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-	border-radius: 10px;
+	border-radius: 10px; 
 	padding: 50px 100px;
 	width: 100%;
-	background-image: url('../../../assets/service_bg3.jpg');
+	background-image: url('../../../assets/home_images/snow1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .services-image p{
   	
-  	font-size: 40px;
+  	font-size: 80px;
   	font-weight:700;
   	color:white;
   	margin-top: -20px;
@@ -70,6 +70,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
+	text-align: left;
 }
 
 .service-text h1{
@@ -108,7 +109,7 @@
  	}
 
  	.services-image p{
- 		font-size: 30px;
+ 		font-size: 50px;
     	font-weight:700;
     	margin-top: 0px;
  	}

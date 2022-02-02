@@ -1,6 +1,6 @@
 import React from 'react'
 import './services.css'
-
+ 
 const Services = () =>{
    
    return(
@@ -11,9 +11,7 @@ const Services = () =>{
          <div className="services-top">
 
                 <div className="services-image">
-                  <p style={{fontSize: 30, marginBottom: 30, paddingTop: 50}}>Services</p> 
-                  <p>ONE STOP SOLUTION</p>
-                  <p>FOR ALL YOUR CREATIVE NEEDS!</p>
+                  <p style={{ marginBottom: 30, paddingTop: 50}}>Services</p> 
                </div>
 
          </div>
@@ -78,3 +76,5 @@ const Services = () =>{
 export default Services;
 
 //<p style={{marginTop: -20}}>projects and enlarges individual frames of filmed live action.</p>
+/*<p>ONE STOP SOLUTION</p>
+                  <p>FOR ALL YOUR CREATIVE NEEDS!</p>*/

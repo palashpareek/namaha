@@ -15,7 +15,7 @@ const Pipe = () =>{
 
             <div className="pipeline-text">
             <h1>BID PACKAGE</h1>
-            <p style={{marginTop: -20}}>Give us the intermediary record of the shot with a brief portrayl.</p>
+            <p style={{marginTop: -20}}>Give us the script anecdotes with a brief portrayal.</p>
             </div>
 
          </div>
@@ -42,8 +42,7 @@ const Pipe = () =>{
 
             <div className="pipeline-text">
             <h1>IDEA</h1>
-            <p style={{marginTop: -20}}>We will review the shots, understand your project needs and requirements,
-and provide quote and delivery schedules for you.</p>
+            <p style={{marginTop: -20}}>We analyse and bid on your ideas after leaving them in our cups and provide a cost-savvy quote and the delivery timeline.</p>
             </div>
 
          </div>
@@ -67,8 +66,8 @@ and provide quote and delivery schedules for you.</p>
             </div>
 
             <div className="pipeline-text">
-            <h1>OUTSOURCE</h1>
-            <p style={{marginTop: -20}}>Our creative visual effects artists will continue with the process when you confirm the quote and delivery schedule.</p>
+            <h1>PRODUCTION</h1>
+            <p style={{marginTop: -20}}>Our creative visual effects artist will work after you dial us down the confirmation for the project.</p>
             </div>
 
          </div>
@@ -94,7 +93,7 @@ and provide quote and delivery schedules for you.</p>
 
             <div className="pipeline-text">
             <h1>DELIVERY</h1>
-            <p style={{marginTop: -20}}>We will deliver the shots on time as planned.</p>
+            <p style={{marginTop: -20}}>Delivering the cords on time, shines through in our service.</p>
             </div>
 
          </div>
@@ -112,7 +111,7 @@ and provide quote and delivery schedules for you.</p>
          </div>
 
 
-         <div className="pipeline-content">
+         <div className="pipeline-content"> 
 
             <div className="pipeline-icon">
             <img src={require('../../../assets/pipeline_icons/5.png').default} className="service-picture" />
@@ -120,7 +119,7 @@ and provide quote and delivery schedules for you.</p>
 
             <div className="pipeline-text">
             <h1>APPROVAL</h1>
-            <p style={{marginTop: -20}}>You check the work done & accept (or) provide the feedback, we will issue the invoice upon approval of the deliverable.</p>
+            <p style={{marginTop: -20}}>You review the visual effects feature and grant us the approval; succeeding to that, we will issue the invoice upon the consent of the deliverable.</p>
             </div>
 
          </div>
@@ -135,7 +134,7 @@ and provide quote and delivery schedules for you.</p>
         <span className="arrow"></span>
        </div>
        <div class="line-v"></div>
-         </div>
+         </div> 
 
 
          <div  style={{marginBottom: 40}}className="pipeline-content">
@@ -146,7 +145,8 @@ and provide quote and delivery schedules for you.</p>
 
             <div className="pipeline-text">
             <h1>COMPLETION</h1>
-            <p style={{marginTop: -20}}>Closure of the project: build confidence through excellence of the job and delivery on time.</p>
+            <p style={{marginTop: -20}}>Closure of the project, we build trust through the excellence of the job that sounds the success and beams with high production quality on the completion stage.</p>
+
             </div>
 
          </div>

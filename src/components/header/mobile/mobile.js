@@ -2,7 +2,7 @@ import React from 'react'
 import './mobile.css'
 import {Link} from 'react-router-dom'
 
-
+ 
 const Mobile = ({isOpen, setIsOpen}) =>{ 
 
 	return (
@@ -12,7 +12,6 @@ const Mobile = ({isOpen, setIsOpen}) =>{
                <div className="close-icon" onClick={()=> setIsOpen(!isOpen)}>
                   <i class="fi-rr-cross-circle"></i>
                </div>
-
 
 
              <div className="mobile-options">
@@ -44,7 +43,7 @@ const Mobile = ({isOpen, setIsOpen}) =>{
 
                  <Link to="/reels">
                  <i class="fi fi-rr-film option-icon"></i>
-                 Show Reels
+                 Show Reels 
                  </Link>
 
               </div>
@@ -65,7 +64,7 @@ const Mobile = ({isOpen, setIsOpen}) =>{
               <div className="mobile-option">
 
                  <Link to="/contact">
-                  <i class="fi-rr-user option-icon"></i>
+                  <i class="fi-rr-user option-icon"></i> 
                  Contact
                  </Link>
 

@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import VideoPlayer from 'react-video-js-player';
+import VideoPlayer from 'react-video-js-player'
 import Video1 from '../../../assets/main_show_reel2.mp4'
 import poster from '../../../assets/home_images/New1.jpg'
 import Video from '../../../assets/show_reel.mp4'
@@ -39,7 +39,7 @@ const Reels = () =>{
                </div>
 
          </div>
-
+ 
       </div>
     )
   }

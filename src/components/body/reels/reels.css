@@ -12,7 +12,7 @@
   }
 
   .reels-bottom{
-  	display: flex;
+  	display: block;
   	align-items: center;
   	justify-content: center;
   }
@@ -23,7 +23,7 @@
   	  align-items: center;
   	  justify-content: flex-start;
   	  width: 100%;
-      background-image: url('../../../assets/reel-image-2.jpg');
+      background-image: url('../../../assets/home_images/New21.jpg');
       background-repeat: no-repeat;
       background-size: cover;
   }
@@ -31,9 +31,9 @@
 
   .reel-image p{
   	padding-left: 90px;
-  	font-size: 50px;
+  	font-size: 70px;
   	font-weight:700;
-  	color:white;
+  	color: white;
   }
 
   .reel-video{
@@ -53,7 +53,7 @@
   	align-items: center;
   	justify-content: center;
   	width:100%;
-  	height:80vh;
+  	height:100vh;
   	/*background-color: rgba(0,0,0,0.9);
   	background-repeat: no-repeat;
     background-size: cover;*/
@@ -66,7 +66,7 @@
     left: 50%;
     top:  87%;
     object-fit: cover;
-    transform: translate(-50%, -72%);
+    transform: translate(-50%, -60%);
     z-index: -1;
     opacity: 0.65;
   }
@@ -108,14 +108,24 @@
        height: 80%;
        transform: translate(-50%, -75%);
       }
+
+      .bottom-picture{
+        width: 95%;
+        height:80vh;
+      }
  }
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1010px){
    .reels-bg-video{
       width: 95%;
       height: 80%;
-      transform: translate(-50%, -75%);
+      transform: translate(-50%, -85%);
      }
+
+     .bottom-picture{
+      width: 95%;
+      height:80vh;
+    }
 }
 
 @media only screen and (max-width: 720px){
@@ -127,7 +137,7 @@
 
  .reel-image p{
   	padding-left: 0px;
-  	font-size: 20px;
+  	font-size: 30px;
      }
 
      .reels-bg-video{
@@ -135,5 +145,10 @@
       height: 80%;
       transform: translate(-50%, -90%);
 
+     }
+
+     .bottom-picture{
+       width: 95%;
+       height:80vh;
      }
 }

@@ -31,7 +31,7 @@
 }
  
 .round {
-    position: relative;
+    position: relative; 
     border: 3px solid black;
     width: 40px;
     height: 40px;
@@ -115,13 +115,24 @@
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: flex-start;
+    text-align: left;
 }
 
 .pipeline-text h1{
-	color: #A00000;
+	color: #A00000; 
 	font-weight: 800;
+}
+
+.pipeline-text p{
+    font-size:15px;
+}
+
+@media only screen and (max-width:1024px){
+    .pipeline-text p{
+        font-size:12px;
+    }
 }
 
 @media only screen and (max-width:720px){
@@ -133,5 +144,9 @@
     .center-con {
         z-index: -1;
         margin-left: 50vw;
+    }
+
+    .pipeline-text p{
+        font-size:12px;
     }
 }
