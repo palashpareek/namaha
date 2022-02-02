@@ -133,12 +133,16 @@
     .pipeline-text p{
         font-size:12px;
     }
+
+    .pipeline{
+        justify-content: flex-start;
+    }
 }
 
 @media only screen and (max-width:720px){
 
-    .pipeline-text{
-        align-items: center;
+    .pipeline{
+        justify-content: flex-start;
     }
 
     .center-con {

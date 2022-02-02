@@ -15,7 +15,7 @@ const Services = () =>{
                </div>
 
          </div>
-
+ 
 
          <div className="services-bottom"> 
 
@@ -26,7 +26,7 @@ const Services = () =>{
                  </div>
 
                  <div className="service-text">
-                 <h1>VFX Rotoscope</h1>
+                 <h1>Rotoscope</h1>
                  </div>
 
              </div>
@@ -38,7 +38,7 @@ const Services = () =>{
                  </div>
 
                  <div className="service-text">
-                 <h1>VFX Prep/Paint</h1>
+                 <h1>Prep/Paint</h1>
                  </div>
                  
              </div>
@@ -50,7 +50,7 @@ const Services = () =>{
                  </div>
  
                  <div className="service-text">
-                 <h1>VFX Matchmove</h1>
+                 <h1>Matchmove</h1>
                  </div>
                  
              </div>
@@ -62,7 +62,7 @@ const Services = () =>{
                  </div>
 
                  <div className="service-text">
-                 <h1>VFX Keying</h1>
+                 <h1>Keying</h1>
                  </div>
                  
              </div>

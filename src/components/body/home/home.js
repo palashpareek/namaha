@@ -6,7 +6,7 @@ import './home.css'
 
 const Home1 = () =>{
 
-	return(
+	return( 
  
 		<div className="home1">
 		   
