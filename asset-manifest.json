@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/namaha/static/css/main.bfd8f551.chunk.css",
-    "main.js": "/namaha/static/js/main.9428f379.chunk.js",
-    "main.js.map": "/namaha/static/js/main.9428f379.chunk.js.map",
+    "main.css": "/namaha/static/css/main.c4e48c60.chunk.css",
+    "main.js": "/namaha/static/js/main.37cfbb60.chunk.js",
+    "main.js.map": "/namaha/static/js/main.37cfbb60.chunk.js.map",
     "runtime-main.js": "/namaha/static/js/runtime-main.4ac28292.js",
     "runtime-main.js.map": "/namaha/static/js/runtime-main.4ac28292.js.map",
     "static/js/2.e17873ba.chunk.js": "/namaha/static/js/2.e17873ba.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.2051105b.chunk.js": "/namaha/static/js/3.2051105b.chunk.js",
     "static/js/3.2051105b.chunk.js.map": "/namaha/static/js/3.2051105b.chunk.js.map",
     "index.html": "/namaha/index.html",
-    "static/css/main.bfd8f551.chunk.css.map": "/namaha/static/css/main.bfd8f551.chunk.css.map",
+    "static/css/main.c4e48c60.chunk.css.map": "/namaha/static/css/main.c4e48c60.chunk.css.map",
     "static/js/2.e17873ba.chunk.js.LICENSE.txt": "/namaha/static/js/2.e17873ba.chunk.js.LICENSE.txt",
     "static/media/2.png": "/namaha/static/media/2.becb69a1.png",
     "static/media/3.png": "/namaha/static/media/3.6a22f56f.png",
@@ -38,7 +38,7 @@
   "entrypoints": [
     "static/js/runtime-main.4ac28292.js",
     "static/js/2.e17873ba.chunk.js",
-    "static/css/main.bfd8f551.chunk.css",
-    "static/js/main.9428f379.chunk.js"
+    "static/css/main.c4e48c60.chunk.css",
+    "static/js/main.37cfbb60.chunk.js"
   ]
 }
